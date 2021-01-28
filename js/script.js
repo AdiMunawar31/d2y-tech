@@ -12,7 +12,6 @@ $(document).ready(function () {
         const response = await fetch(url);
         const data = await response.json();
         let { latitude, longitude, altitude, footprint, solar_lat, solar_lon } = data;
-        console.log(data);
 
         lat = `
         ${latitude >= 0 ? '<h3 style="color: green"> Lat : ' + latitude.toFixed(4) + '</h3>' : '<h3 style="color: red"> Lat : ' + latitude.toFixed(4) + '</h3>'}
