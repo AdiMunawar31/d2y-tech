@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {#2b2c2cbd
+    background: rgb(0, 0, 0);
+background: linear-gradient(90deg, rgb(10, 65, 64) 0%, rgb(8, 56, 56) 7%, rgb(8, 48, 47) 16%, rgb(5, 20, 20) 49%, rgb(7, 7, 7) 100%);
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner #bg {
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.banner .desc{
+    font-size: 31px;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    width: 50%;
+}
+.card{
+    transition: 1s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+#srv {
+    color: white;
+}
+.row .imgs img{
+    transition: 1s;
+}
+.row:hover .imgs img{
+    transform: rotate(360deg);
+}
+.row .texts h1{ 
+    transition: 1s;
+}
+.row:hover .texts h1{
+    /* transform: rotate(720deg); */
+    transform: scale(1.5);
+    margin-left: 100px;
+}
+
+#ig {
+    margin-top: -260px;
+    z-index: -1;
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#ig img {
+    width: 100%;
+    height: 700px;
+    
+}
+#svg {
+    z-index: 1;
+}
+.jumbotron {
+	height: 500px;
+	background-image: url(../img/wp.png);
+	background-size: cover;
+	background-attachment: fixed;
+	overflow: hidden;
+	background-position: 0 -100px;
+	color: #eaeaea;
+
+}
+/* 
+footer {
+    margin-bottom: -15px;
+} */
